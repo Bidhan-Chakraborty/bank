@@ -1,0 +1,35 @@
+{
+  "name": "bank",
+  "version": "1.0.0",
+  "description": "generating rest api to fetch bank details query wise",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon -r dotenv/config app.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "sequelize"
+  ],
+  "author": "Bidhan Chakraborty",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "fast-csv": "^4.3.6",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.6",
+    "sequelize-cli": "^5.5.1",
+    "underscore": "^1.10.2",
+    "underscore.string": "^3.3.5"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  }
+}
